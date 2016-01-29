@@ -27,31 +27,31 @@ html {
 @keyframes move {
 
   0% {
-    transform: translate(10px,0);
+    transform: translate(10px, 0);
   }
 
   50% {
-  	transform: translate(-10px,0);
+    transform: translate(-10px, 0);
   }
 
   100% {
-    transform: translate(10px,0);
+    transform: translate(10px, 0);
   }
 }
 
 .left-ear {
-	transition: all .5s linear;
+  transition: all .5s linear;
 }
 
 .face:hover .left-ear {
-	transform: translate(0,-10px);
+  transform: translate(0, -10px);
 }
 
 .right-ear {
-	transition: all .5s linear;
+  transition: all .5s linear;
 }
 
 .face:hover .right-ear {
-	transform: translate(0,-10px);
+  transform: translate(0, -10px);
 }
 
